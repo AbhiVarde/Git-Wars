@@ -143,12 +143,19 @@ const Game = () => {
         </>
       </div>
       <motion.footer
-        className="text-gray-400"
+        className="fixed py-4 text-center px-2 bottom-0 text-gray-300"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
       >
-        &copy; 2023 AbhiVarde - Made with ❤️ for the people of the internet.
+        &copy; {new Date().getFullYear()}, Designed & Build by{" "}
+        <a
+          href="https://abhivarde.vercel.app"
+          className=" text-white font-semibold"
+        >
+          AbhiVarde
+        </a>
+        .{" "}
       </motion.footer>
     </div>
   );

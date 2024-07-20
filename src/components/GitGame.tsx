@@ -150,7 +150,7 @@ const Game = () => {
       >
         &copy; {new Date().getFullYear()}, Designed & Build by{" "}
         <a
-          href="https://abhivarde.vercel.app"
+          href="https://www.abhivarde.in/"
           className=" text-white font-semibold"
         >
           AbhiVarde
